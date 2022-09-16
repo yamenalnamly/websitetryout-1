@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient( #AF0171,#790252,#4C0033,black);
+   padding-bottom: 85px;
+}
+#container
+{
+    width: 700px;
+    margin: 50px auto 0;
+    background-color: black;
+    overflow: hidden;
+}
+img
+{
+    width:341px; 
+    height:512px;
+}
+#text
+{
+    width: 300px;
+    margin: 10px auto;
+
+}
+h1
+{
+    color: white;
+    text-align: center;
+   margin: 20px;
+   font-size: 32px;
+
+}
+
+input , select
+{
+    width: 250px;
+    border-bottom: solid 1px gray;
+    text-align: left;
+    color: gray;
+    display: block;
+    background-color: black;
+    border-bottom: solid 1px gray;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    margin: 20px;
+    line-height: 10px;
+    outline: black;
+}
+input[type="submit"]
+{
+
+    width: 250px;
+    padding: 10px;
+    border-bottom: hidden;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient( #AF0171,#790252,#4C0033,black);
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    color: black;
+    border: solid 3px #4C0033;
+}
